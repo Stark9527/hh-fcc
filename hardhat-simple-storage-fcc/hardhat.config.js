@@ -4,6 +4,7 @@ require("@nomicfoundation/hardhat-toolbox")
 // require('hardhat-gas-reporter')
 require("dotenv").config()
 require("./tasks/balance.js")
+// new commit
 require("./tasks/block-number.js")
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL
